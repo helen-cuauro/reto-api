@@ -1,0 +1,84 @@
+[
+    {
+      "valor": "SPCCPI1",
+      "derechos": "S/ 1.88491999 Efe.",
+      "concepto_ejercicio": "(20) 2024",
+      "fecha_acuerdo": "23/01/2025",
+      "fecha_corte": "07/02/2025",
+      "fecha_registro": "11/02/2025",
+      "fecha_entrega": "27/02/2025"
+    },
+    {
+      "valor": "SPCCPI2",
+      "derechos": "S/ 1.88491999 Efe.",
+      "concepto_ejercicio": "(20) 2024",
+      "fecha_acuerdo": "23/01/2025",
+      "fecha_corte": "07/02/2025",
+      "fecha_registro": "11/02/2025",
+      "fecha_entrega": "27/02/2025"
+    },
+    {
+      "valor": "SCCO",
+      "derechos": "0.0073 Accs. x Acción",
+      "concepto_ejercicio": "Div. en Accs.",
+      "fecha_acuerdo": "23/01/2025",
+      "fecha_corte": "10/02/2025",
+      "fecha_registro": "11/02/2025",
+      "fecha_entrega": "27/02/2025"
+    },
+    {
+      "valor": "SCCO",
+      "derechos": "US$ 0.70 Efe.",
+      "concepto_ejercicio": "(20) Res. Acum.",
+      "fecha_acuerdo": "23/01/2025",
+      "fecha_corte": "10/02/2025",
+      "fecha_registro": "11/02/2025",
+      "fecha_entrega": "27/02/2025"
+    },
+    {
+      "valor": "BVLC1",
+      "derechos": "S/ 0.20055564 Efe.",
+      "concepto_ejercicio": "(20) A Cta. 2024",
+      "fecha_acuerdo": "28/01/2025",
+      "fecha_corte": "12/02/2025",
+      "fecha_registro": "14/02/2025",
+      "fecha_entrega": "18/02/2025"
+    },
+    {
+      "valor": "CAVALIC1",
+      "derechos": "S/ 0.0858802 Efe.",
+      "concepto_ejercicio": "(20) A Cta. 2024",
+      "fecha_acuerdo": "28/01/2025",
+      "fecha_corte": "12/02/2025",
+      "fecha_registro": "14/02/2025",
+      "fecha_entrega": "18/02/2025"
+    },
+    {
+      "valor": "GBVLAC1",
+      "derechos": "S/ 0.10806529 Efe.",
+      "concepto_ejercicio": "(20) A Cta. 2024",
+      "fecha_acuerdo": "28/01/2025",
+      "fecha_corte": "12/02/2025",
+      "fecha_registro": "14/02/2025",
+      "fecha_entrega": "21/02/2025"
+    },
+    {
+      "valor": "GBVLBC1",
+      "derechos": "S/ 0.11346855 Efe.",
+      "concepto_ejercicio": "(20) A Cta. 2024",
+      "fecha_acuerdo": "28/01/2025",
+      "fecha_corte": "12/02/2025",
+      "fecha_registro": "14/02/2025",
+      "fecha_entrega": "21/02/2025"
+    },
+    {
+      "valor": "INTEGRC1",
+      "derechos": "S/ 282.60124239 Efe.",
+      "concepto_ejercicio": "(20) 2024",
+      "fecha_acuerdo": "28/01/2025",
+      "fecha_corte": "12/02/2025",
+      "fecha_registro": "14/02/2025",
+      "fecha_entrega": "17/02/2025"
+    }
+  ]
+  
