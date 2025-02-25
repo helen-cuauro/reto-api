@@ -1,7 +1,7 @@
 const express = require("express");
 const https = require("https");
 const cheerio = require("cheerio");
-const fetch = require("node-fetch");
+const axios = require("axios");
 
 const app = express();
 const PORT = 5000;
@@ -12,17 +12,15 @@ const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 app.get("/", async (req, res) => {
   try {
-    const response = await fetch(URL, {
-      agent: httpsAgent,
+    const response = await axios.get(URL, {
+      httpsAgent,
       headers: {
         "User-Agent":
           "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
       },
     });
 
-    if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
-
-    const html = await response.text();
+    const html = response.data; 
     const $ = cheerio.load(html);
 
     let resultados = [];
@@ -53,4 +51,3 @@ app.get("/", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
-
