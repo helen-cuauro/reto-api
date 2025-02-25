@@ -7,7 +7,7 @@ const cors = require("cors");
 const app = express();
 const PORT = 5000;
 const URL = "https://documents.bvl.com.pe/empresas/entrder1.htm";
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors());
 
 // Agente HTTPS para ignorar la verificación SSL
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
